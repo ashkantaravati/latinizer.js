@@ -1,0 +1,21 @@
+{
+  "name": "latinizer.js",
+  "version": "1.0.0",
+  "description": "Simple JavaScript Library to convert non-latin digits to latin digits",
+  "main": "dist/latinizer.js",
+  "types": "dist/latinizer.d.ts",
+  "dependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "test": "tsc && mocha",
+    "build": "tsc -p tsconfig-build.json"
+  },
+  "author": "Ashkan Taravati",
+  "license": "MIT License"
+}

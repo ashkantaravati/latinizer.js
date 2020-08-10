@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Farsi to Latin Number Converter</title>
+</head>
+
+<body>
+    <!-- <textarea name="text" id="text" cols="30" rows="10">blah blah blah </textarea> -->
+    <input type="text" name="age" id="age" placeholder="Age...">
+    <input type="text" name="sex" id="sex" placeholder="sex...">
+    <input type="text" name="month" id="month" placeholder="Month...">
+    <input type="text" name="language" id="language" placeholder="language...">
+
+
+
+    <script type="module">
+        import {
+            Latinizer
+        } from '/dist/latinizer.js'
+        Latinizer.Register("#age");
+        Latinizer.Register("#month");
+    </script>
+</body>
+
+</html>
