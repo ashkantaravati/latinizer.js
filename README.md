@@ -1,6 +1,6 @@
 # latinizer.js
 
-Simple JavaScript Library to convert non-latin digits to latin digits. (Currently only Persian is supported )
+Simple JavaScript Library to convert non-Latin digits to Latin digits. (Currently only Persian is supported )
 
 ## Installation
 
